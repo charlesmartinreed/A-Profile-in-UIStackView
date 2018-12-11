@@ -12,6 +12,8 @@
 		8C82DA1C21BF2EAA0088161F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C82DA1A21BF2EAA0088161F /* Main.storyboard */; };
 		8C82DA1E21BF2EAD0088161F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C82DA1D21BF2EAD0088161F /* Assets.xcassets */; };
 		8C82DA2121BF2EAD0088161F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C82DA1F21BF2EAD0088161F /* LaunchScreen.storyboard */; };
+		8C82DA2921BF30690088161F /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C82DA2821BF30690088161F /* Header.xib */; };
+		8C82DA2B21BF34F50088161F /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C82DA2A21BF34F50088161F /* ProfileController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8C82DA1D21BF2EAD0088161F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C82DA2021BF2EAD0088161F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C82DA2221BF2EAD0088161F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C82DA2821BF30690088161F /* Header.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Header.xib; sourceTree = "<group>"; };
+		8C82DA2A21BF34F50088161F /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,18 @@
 				8C82DA1D21BF2EAD0088161F /* Assets.xcassets */,
 				8C82DA1F21BF2EAD0088161F /* LaunchScreen.storyboard */,
 				8C82DA2221BF2EAD0088161F /* Info.plist */,
+				8C82DA2821BF30690088161F /* Header.xib */,
+				8C82DA2C21BF34FB0088161F /* Controller */,
 			);
 			path = "A Profile in UIStackView";
+			sourceTree = "<group>";
+		};
+		8C82DA2C21BF34FB0088161F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8C82DA2A21BF34F50088161F /* ProfileController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C82DA2921BF30690088161F /* Header.xib in Resources */,
 				8C82DA2121BF2EAD0088161F /* LaunchScreen.storyboard in Resources */,
 				8C82DA1E21BF2EAD0088161F /* Assets.xcassets in Resources */,
 				8C82DA1C21BF2EAA0088161F /* Main.storyboard in Resources */,
@@ -137,6 +152,7 @@
 			files = (
 				8C82DA1921BF2EAA0088161F /* ViewController.swift in Sources */,
 				8C82DA1721BF2EAA0088161F /* AppDelegate.swift in Sources */,
+				8C82DA2B21BF34F50088161F /* ProfileController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

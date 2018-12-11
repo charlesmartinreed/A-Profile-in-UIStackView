@@ -15,7 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow()
+        window?.makeKeyAndVisible()
+        
+        let profileController = ProfileController(collectionViewLayout: UICollectionViewFlowLayout()) //flow layout because we're using our Xib as the header for a collection view object
+        
+        window?.rootViewController = UINavigationController(rootViewController: profileController) // can be anything that subclasses UIViewController
+        
         return true
     }
 
