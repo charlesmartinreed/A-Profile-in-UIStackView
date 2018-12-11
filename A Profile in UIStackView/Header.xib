@@ -13,20 +13,20 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="105-AS-h4a">
-            <rect key="frame" x="0.0" y="0.0" width="864" height="1080"/>
+            <rect key="frame" x="0.0" y="0.0" width="779" height="844"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Ij7-5i-FXQ">
-                    <rect key="frame" x="560" y="60" width="288" height="896"/>
+                    <rect key="frame" x="527.5" y="60" width="235.5" height="739"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="SFM-un-vJ7">
-                            <rect key="frame" x="0.0" y="0.0" width="288" height="288"/>
+                            <rect key="frame" x="0.0" y="0.0" width="235.5" height="235.5"/>
                         </imageView>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="2ly-b9-oef">
-                            <rect key="frame" x="0.0" y="304" width="288" height="288"/>
+                            <rect key="frame" x="0.0" y="251.5" width="235.5" height="236"/>
                         </imageView>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="jrB-qu-7v2">
-                            <rect key="frame" x="0.0" y="608" width="288" height="288"/>
+                            <rect key="frame" x="0.0" y="503.5" width="235.5" height="235.5"/>
                         </imageView>
                     </subviews>
                     <constraints>
@@ -34,25 +34,25 @@
                     </constraints>
                 </stackView>
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="iPN-fA-jnW">
-                    <rect key="frame" x="16" y="668" width="528" height="288"/>
+                    <rect key="frame" x="16" y="563.5" width="495.5" height="235.5"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="Xc1-MV-dSH">
-                            <rect key="frame" x="0.0" y="0.0" width="256" height="288"/>
+                            <rect key="frame" x="0.0" y="0.0" width="239.5" height="235.5"/>
                         </imageView>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="srh-kV-tLc">
-                            <rect key="frame" x="272" y="0.0" width="256" height="288"/>
+                            <rect key="frame" x="255.5" y="0.0" width="240" height="235.5"/>
                         </imageView>
                     </subviews>
                 </stackView>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="PQy-tK-0lA">
-                    <rect key="frame" x="16" y="60" width="528" height="592"/>
+                    <rect key="frame" x="16" y="60" width="495.5" height="487.5"/>
                 </imageView>
             </subviews>
             <constraints>
                 <constraint firstItem="PQy-tK-0lA" firstAttribute="leading" secondItem="w0p-qp-JaY" secondAttribute="leading" constant="16" id="8jo-qs-i4s"/>
                 <constraint firstItem="w0p-qp-JaY" firstAttribute="trailing" secondItem="Ij7-5i-FXQ" secondAttribute="trailing" constant="16" id="EkR-wD-2A6"/>
                 <constraint firstItem="iPN-fA-jnW" firstAttribute="leading" secondItem="w0p-qp-JaY" secondAttribute="leading" constant="16" id="KzW-mp-MPb"/>
-                <constraint firstItem="Ij7-5i-FXQ" firstAttribute="width" secondItem="105-AS-h4a" secondAttribute="width" multiplier="1/3" id="Re1-wO-RJc"/>
+                <constraint firstItem="Ij7-5i-FXQ" firstAttribute="width" secondItem="105-AS-h4a" secondAttribute="width" multiplier="1/3" constant="-24" id="Re1-wO-RJc"/>
                 <constraint firstItem="PQy-tK-0lA" firstAttribute="top" secondItem="SFM-un-vJ7" secondAttribute="top" id="T9J-Ew-cBB"/>
                 <constraint firstItem="iPN-fA-jnW" firstAttribute="top" secondItem="jrB-qu-7v2" secondAttribute="top" id="VEW-ko-pBl"/>
                 <constraint firstItem="iPN-fA-jnW" firstAttribute="bottom" secondItem="jrB-qu-7v2" secondAttribute="bottom" id="g2n-rw-k5g"/>
@@ -62,7 +62,7 @@
                 <constraint firstItem="iPN-fA-jnW" firstAttribute="top" secondItem="PQy-tK-0lA" secondAttribute="bottom" constant="16" id="s0N-5d-oqe"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="w0p-qp-JaY"/>
-            <point key="canvasLocation" x="2857.971014492754" y="-277.90178571428572"/>
+            <point key="canvasLocation" x="2796.376811594203" y="-356.91964285714283"/>
         </collectionReusableView>
     </objects>
     <resources>
