@@ -35,7 +35,7 @@
                                 </userDefinedRuntimeAttribute>
                             </userDefinedRuntimeAttributes>
                         </imageView>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="jrB-qu-7v2">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="jrB-qu-7v2" customClass="TinderImageView" customModule="A_Profile_in_UIStackView" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="503.5" width="235.5" height="235.5"/>
                             <userDefinedRuntimeAttributes>
                                 <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
