@@ -19,14 +19,29 @@
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Ij7-5i-FXQ">
                     <rect key="frame" x="527.5" y="60" width="235.5" height="739"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="SFM-un-vJ7">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="SFM-un-vJ7" customClass="TinderImageView" customModule="A_Profile_in_UIStackView" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="235.5" height="235.5"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                                    <integer key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                         </imageView>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="2ly-b9-oef">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="2ly-b9-oef" customClass="TinderImageView" customModule="A_Profile_in_UIStackView" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="251.5" width="235.5" height="236"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                                    <integer key="value" value="3"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                         </imageView>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="jrB-qu-7v2">
                             <rect key="frame" x="0.0" y="503.5" width="235.5" height="235.5"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                                    <integer key="value" value="6"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                         </imageView>
                     </subviews>
                     <constraints>
@@ -36,16 +51,31 @@
                 <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="iPN-fA-jnW">
                     <rect key="frame" x="16" y="563.5" width="495.5" height="235.5"/>
                     <subviews>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="Xc1-MV-dSH">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="Xc1-MV-dSH" customClass="TinderImageView" customModule="A_Profile_in_UIStackView" customModuleProvider="target">
                             <rect key="frame" x="0.0" y="0.0" width="239.5" height="235.5"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                         </imageView>
-                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="srh-kV-tLc">
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="srh-kV-tLc" customClass="TinderImageView" customModule="A_Profile_in_UIStackView" customModuleProvider="target">
                             <rect key="frame" x="255.5" y="0.0" width="240" height="235.5"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
                         </imageView>
                     </subviews>
                 </stackView>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="PQy-tK-0lA">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finch01" translatesAutoresizingMaskIntoConstraints="NO" id="PQy-tK-0lA" customClass="TinderImageView" customModule="A_Profile_in_UIStackView" customModuleProvider="target">
                     <rect key="frame" x="16" y="60" width="495.5" height="487.5"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </imageView>
             </subviews>
             <constraints>
